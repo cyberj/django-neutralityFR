@@ -42,7 +42,7 @@ django-NeutralityFR bloque 3 blocs d'IP appartenant à l'Assemblée Nationale :
    * 80.118.139.160 à 80.118.139.191 (80.118.39.160/27)
    * 62.160.71.0 à 62.160.71.255 (62.160.71.0/24)
    * 84.233.174.48 à 84.233.174.63 (84.233.174.48/28)
-Si un visiteur est détecté comme en provenance de l'une de ces adresses IP, ceci interrompt le processus PHP et retourne une page explicative à nos députés.
+Si un visiteur est détecté comme en provenance de l'une de ces adresses IP, ceci retourne une page explicative à nos députés.
 
 Ce middleware a été réalisé très rapidement et est évidemment perfectible. Ne vous gênez donc pas pour l'améliorer et l'adapter par exemple pour d'autres CMS.
 
