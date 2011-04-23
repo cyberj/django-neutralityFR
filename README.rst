@@ -33,7 +33,7 @@ Cette version est proposée pour le moment uniquement en Français mais elle est
 Installation
 ============
 
-Une fois l'application "neutralityFR" installée et présente dans `INSTALLED_APPS`, ajoutez juste le middleware `neutralityFR.middleware.3M.DuctTapeMiddleware` dans la liste de vos middlewares Django.
+Une fois l'application ``django-neutralityFR`` installée et présente dans ``INSTALLED_APPS`` sous le nom ``neutralityFR``, ajoutez juste le middleware ``'neutralityFR.middleware.3M.DuctTapeMiddleware'`` dans la liste de vos middlewares Django.
 
 Comment cela fonctionne techniquement
 =====================================
