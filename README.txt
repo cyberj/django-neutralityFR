@@ -17,7 +17,7 @@ Le concept de neutralité est précisement ce qui a permis de nous offrir aujour
 
 Elles ne peuvent et ne doivent en aucun cas éluder les questions bien plus importantes car structurelles : à quoi servirait une réflexion économique sur un écosystème dont on détruirait la valeur [2]_.
 
-La mise en place de listes de blocage secrètes (vous pouvez bloquer les ip que vous voulez en modifiant le code source du middleware et rendre public ou non ce que vous souhaitez bloquer), sans l'intervention d'un juge, de manière ouvertement discriminatoire, c'est précisément ce que vous propose cette django-NeutralityFR. Un plugin pour avoir moins d'Internet.
+La mise en place de listes de blocage secrètes (vous pouvez bloquer les ip que vous voulez en modifiant le code source du middleware et rendre public ou non ce que vous souhaitez bloquer), sans l'intervention d'un juge, de manière ouvertement discriminatoire, c'est précisément ce que vous propose cette django-NeutralityFR. Un middleware pour avoir moins d'Internet.
 
 Objectif
 ========
@@ -33,7 +33,7 @@ Cette version est proposée pour le moment uniquement en Français mais elle est
 Installation
 ============
 
-Une fois l'application installée et présente dans `INSTALLED_APPS`, ajoutez juste le middleware `neutralityFR.middleware.3M.DuctTapeMiddleware` dans la liste de vos middlewares django
+Une fois l'application "neutralityFR" installée et présente dans `INSTALLED_APPS`, ajoutez juste le middleware `neutralityFR.middleware.3M.DuctTapeMiddleware` dans la liste de vos middlewares Django.
 
 Comment cela fonctionne techniquement
 =====================================

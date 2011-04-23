@@ -12,7 +12,7 @@ CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 setup(
     name='django-neutralityFR',
     version=version,
-    description="Middleware Django Anti-netneutrality to give an example to some people.",
+    description="Middleware Django anti-netneutrality to give an example to some people.",
     long_description=README + '\n\n' +  CHANGES,
     classifiers=[
      "Programming Language :: Python",
